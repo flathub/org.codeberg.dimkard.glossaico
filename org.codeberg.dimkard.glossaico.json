@@ -1,8 +1,9 @@
 {
     "id": "org.codeberg.dimkard.glossaico",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15",
+    "runtime-version": "5.15-21.08",
     "sdk": "org.kde.Sdk",
+    "sdk-extensions": ["org.freedesktop.Sdk.Extension.llvm12"],
     "command": "glossaico",
     "finish-args": [
     "--share=ipc",
@@ -23,6 +24,10 @@
             "name": "PySide2",
             "buildsystem": "cmake-ninja",
             "builddir": true,
+            "build-options": {
+                "prepend-path": "/usr/lib/sdk/llvm12/bin",
+                "prepend-ld-library-path": "/usr/lib/sdk/llvm12/lib"
+            },
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=Release",
                 "-DBUILD_TESTS=OFF"
@@ -30,8 +35,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.qt.io/official_releases/QtForPython/pyside2/PySide2-5.15.2-src/pyside-setup-opensource-src-5.15.2.tar.xz",
-                    "sha256": "b306504b0b8037079a8eab772ee774b9e877a2d84bab2dbefbe4fa6f83941418"
+                    "url": "https://download.qt.io/official_releases/QtForPython/pyside2/PySide2-5.15.4-src/pyside-setup-opensource-src-5.15.4.tar.xz",
+                    "sha256": "3c68ed0def4111ef5d0641370306338d277ae8983a77eaf22f223ddd3a14450b"
                 },
                 {
                     "type": "shell",
