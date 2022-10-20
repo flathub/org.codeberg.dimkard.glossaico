@@ -1,0 +1,12 @@
+diff -Naur pyside-setup-opensource-src-5.15.6/sources/shiboken2/libshiboken/embed/signature_bootstrap.py pyside-setup-opensource-src-5.15.6-patch1/sources/shiboken2/libshiboken/embed/signature_bootstrap.py
+--- pyside-setup-opensource-src-5.15.6/sources/shiboken2/libshiboken/embed/signature_bootstrap.py	2022-06-30 10:54:16.000000000 +0300
++++ pyside-setup-opensource-src-5.15.6-patch1/sources/shiboken2/libshiboken/embed/signature_bootstrap.py	2022-10-20 17:00:37.470889003 +0300
+@@ -211,7 +211,7 @@
+         return self if self._mod2path.get(fullname) else None
+ 
+     def load_module(self, fullname):
+-        import importlib
++        import importlib.machinery
+         import sys
+ 
+         filename = self._mod2path.get(fullname)

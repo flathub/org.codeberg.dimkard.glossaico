@@ -1,8 +1,15 @@
 {
     "id": "org.codeberg.dimkard.glossaico",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15",
+    "runtime-version": "5.15-22.08",
     "sdk": "org.kde.Sdk",
+    "sdk-extensions": ["org.freedesktop.Sdk.Extension.llvm14"],
+    "add-extensions": {
+        "org.freedesktop.Sdk.Extension.llvm14": {
+            "no-autodownload": "false",
+            "version": "22.08"
+        }
+    },
     "command": "glossaico",
     "finish-args": [
     "--share=ipc",
@@ -10,7 +17,8 @@
     "--socket=wayland",
     "--device=dri",
     "--share=network",
-    "--socket=pulseaudio"
+    "--socket=pulseaudio",
+    "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm14/bin"
     ],
     "modules": [
         "python3-requests.json",
@@ -23,6 +31,10 @@
             "name": "PySide2",
             "buildsystem": "cmake-ninja",
             "builddir": true,
+            "build-options": {
+                "prepend-path": "/usr/lib/sdk/llvm14/bin",
+                "prepend-ld-library-path": "/usr/lib/sdk/llvm14/lib"
+            },
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=Release",
                 "-DBUILD_TESTS=OFF"
@@ -30,8 +42,16 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.qt.io/official_releases/QtForPython/pyside2/PySide2-5.15.2-src/pyside-setup-opensource-src-5.15.2.tar.xz",
-                    "sha256": "b306504b0b8037079a8eab772ee774b9e877a2d84bab2dbefbe4fa6f83941418"
+                    "url": "https://download.qt.io/official_releases/QtForPython/pyside2/PySide2-5.15.6-src/pyside-setup-opensource-src-5.15.6.tar.xz",
+                    "sha256": "171ee058d056599b8e9e8605fe3dae5dabdab7764285b21b28f64760a0f6779d"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix_machinery.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "arm-gles2.patch"
                 },
                 {
                     "type": "shell",
