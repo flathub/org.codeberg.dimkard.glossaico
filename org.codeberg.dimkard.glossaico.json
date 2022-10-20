@@ -46,6 +46,10 @@
                     "sha256": "171ee058d056599b8e9e8605fe3dae5dabdab7764285b21b28f64760a0f6779d"
                 },
                 {
+                    "type": "patch",
+                    "path": "fix_machinery.patch"
+                },
+                {
                     "type": "shell",
                     "commands": [
                         "mkdir -p /app/include/qt5tmp && cp -R /usr/include/Qt* /app/include/qt5tmp # https://bugreports.qt.io/broswse/PYSIDE-787",
