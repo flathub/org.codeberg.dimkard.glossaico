@@ -50,6 +50,10 @@
                     "path": "fix_machinery.patch"
                 },
                 {
+                    "type": "patch",
+                    "path": "arm-gles2.patch"
+                },
+                {
                     "type": "shell",
                     "commands": [
                         "mkdir -p /app/include/qt5tmp && cp -R /usr/include/Qt* /app/include/qt5tmp # https://bugreports.qt.io/broswse/PYSIDE-787",
