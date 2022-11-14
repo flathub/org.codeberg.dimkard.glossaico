@@ -21,12 +21,6 @@
     "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm14/bin"
     ],
     "modules": [
-        "python3-requests.json",
-        "python3-pyyaml.json",
-        "python3-python-slugify.json",
-        "python3-librelingo_utils.json",
-        "python3-librelingo_yaml_loader.json",
-        "python3-librelingo_audios.json",
         {
             "name": "PySide2",
             "buildsystem": "cmake-ninja",
@@ -63,6 +57,51 @@
             ]
         },
         {
+            "name": "Cython",
+            "buildsystem" : "simple",
+            "build-commands" : [
+                "python3 setup.py install --prefix=/app --root=/"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://files.pythonhosted.org/packages/4c/76/1e41fbb365ad20b6efab2e61b0f4751518444c953b390f9b2d36cf97eea0/Cython-0.29.32.tar.gz",
+                    "sha256": "8733cf4758b79304f2a4e39ebfac5e92341bce47bcceb26c1254398b2f8c1af7"
+                }
+            ]
+        },
+        {
+            "name": "libyaml",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://pyyaml.org/download/libyaml/yaml-0.2.5.tar.gz",
+                    "sha256": "c642ae9b75fee120b2d96c712538bd2cf283228d2337df2cf2988e3c02678ef4"
+                }
+            ]
+        },
+        {
+            "name": "pyyaml",
+            "buildsystem": "simple",
+            "build-commands": [
+                "python3 setup.py --with-libyaml build",
+                "python3 setup.py install --prefix=/app --root=/"
+             ],
+             "sources": [
+                 {
+                     "type": "archive",
+                     "url": "https://files.pythonhosted.org/packages/a0/a4/d63f2d7597e1a4b55aa3b4d6c5b029991d3b824b5bd331af8d4ab1ed687d/PyYAML-5.4.1.tar.gz",
+                     "sha256": "607774cbba28732bfa802b54baa7484215f530991055bb562efbed5b2f20a45e"
+                 }
+             ]
+        },
+        "python3-requests.json",
+        "python3-python-slugify.json",
+        "python3-librelingo_types.json",
+        "python3-librelingo_utils.json",
+        "python3-librelingo_yaml_loader.json",
+        "python3-librelingo_audios.json",
+        {
             "name": "glossaico",
             "buildsystem" : "simple",
             "build-commands" : [
@@ -74,7 +113,7 @@
                     "type": "archive",
                     "url": "https://codeberg.org/dimkard/glossaico/archive/v1.0.tar.gz",
                     "sha256": "efd131d401dd6d72109975d71adb839c1f4671b4f30799ffe1103ddffed63d17"
-                }
+                 }
             ]
         }
     ]

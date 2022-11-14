@@ -1,0 +1,14 @@
+{
+    "name": "python3-librelingo_types",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"librelingo_types>=3.3.0\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/b2/2e/7931caacdd2f32eaf8b60c306c448b3a6d3d9248ef1dbb6286e51e5b8dea/librelingo_types-3.3.0-py3-none-any.whl",
+            "sha256": "12a41062d5c0b3728637b577dd687a07c186b1ae281dd476e7381b6950c04de8"
+        }
+    ]
+}

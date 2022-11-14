@@ -2,7 +2,7 @@
     "name": "python3-librelingo_yaml_loader.json",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"librelingo_yaml_loader>=1.8.0\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"librelingo_yaml_loader>=1.10.4\" --no-build-isolation"
     ],
     "sources": [
         {
@@ -72,26 +72,6 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a6/a5/c0b6468d3824fe3fde30dbb5e1f687b291608f9473681bbf7dabbf5a87d7/text_unidecode-1.3-py2.py3-none-any.whl",
-            "sha256": "1311f10e8b895935241623731c2ba64f4c455287888b18189350b67134a822e8"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/7e/e2/0c8be1e3b237d11f10963c7cef82e4d98d70ca6e176f3922dddf7bfc7026/python_slugify-5.0.2-py2.py3-none-any.whl",
-            "sha256": "6d8c5df75cd4a7c3a2d21e257633de53f52ab0265cd2d1dc62a730e8194a7380"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/36/2b/61d51a2c4f25ef062ae3f74576b01638bebad5e045f747ff12643df63844/PyYAML-6.0.tar.gz",
-            "sha256": "68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/7b/89/fbb7391d777b60c82d4e1376bb181b98e75adf506b3f7ffe837eca64570b/slugify-0.0.1.tar.gz",
-            "sha256": "c5703cc11c1a6947536f3ce8bb306766b8bb5a84a53717f5a703ce0f18235e4c"
-        },
-        {
-            "type": "file",
             "url": "https://files.pythonhosted.org/packages/c2/98/72928a3911acf145d57dc02c494c025a3820665ca1df3fc083d1a82bac9e/fastdiff-0.3.0-py2.py3-none-any.whl",
             "sha256": "ca5f61f6ddf5a1564ddfd98132ad28e7abe4a88a638a8b014a2214f71e5918ec"
         },
@@ -122,8 +102,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/9d/8d/733e75a3d88c80871b5dea840ddf504d527ebc7e80b2bf9e3093dbba84d6/librelingo_yaml_loader-1.8.0-py3-none-any.whl",
-            "sha256": "87cdfe80196758ea4fff862b73c2cde348640a64da61522c7190a6495449db44"
+            "url": "https://files.pythonhosted.org/packages/a5/5a/d01602e56f5ddad70f35c3a7f13e9082b9dfcc0e70f6fade638b48536468/librelingo_yaml_loader-1.10.4-py3-none-any.whl",
+            "sha256": "75c3295c3c352ab47e556a0c06501d837e66ca8548dd17a3bc78a201501c144e"
         }
     ]
 }
