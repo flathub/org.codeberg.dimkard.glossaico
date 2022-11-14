@@ -37,8 +37,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/64/cc/74d634e1e5659742973a23bb441404c53a7bedb6cd3962109ca5efb703e8/bleach-4.1.0-py2.py3-none-any.whl",
-            "sha256": "4d2651ab93271d1129ac9cbc679f524565cc8a1b791909c4a51eac4446a15994"
+            "url": "https://files.pythonhosted.org/packages/d4/87/508104336a2bc0c4cfdbdceedc0f44dc72da3abc0460c57e323ddd1b3257/bleach-5.0.1-py3-none-any.whl",
+            "sha256": "085f7f33c15bd408dd9b17a4ad77c577db66d76203e5984b1bd59baeee948b2a"
         },
         {
             "type": "file",
@@ -47,13 +47,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/72/a6/fd01694427f1c3fcadfdc5f1de901b813b9ac756f0806ef470cfed1de281/soupsieve-2.3.1-py3-none-any.whl",
-            "sha256": "1a3cca2617c6b38c0343ed661b1fa5de5637f257d4fe22bd9f1338010a1efefb"
+            "url": "https://files.pythonhosted.org/packages/16/e3/4ad79882b92617e3a4a0df1960d6bce08edfb637737ac5c3f3ba29022e25/soupsieve-2.3.2.post1-py3-none-any.whl",
+            "sha256": "3b2503d3c7084a42b1ebd08116e5f81aadfaea95863628c80a3b774a11b7c759"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/69/bf/f0f194d3379d3f3347478bd267f754fc68c11cbf2fe302a6ab69447b1417/beautifulsoup4-4.10.0-py3-none-any.whl",
-            "sha256": "9a315ce70049920ea4572a4055bc4bd700c940521d36fc858205ad4fcde149bf"
+            "url": "https://files.pythonhosted.org/packages/9c/d8/909c4089dbe4ade9f9705f143c9f13f065049a9d5e7d34c828aefdd0a97c/beautifulsoup4-4.11.1-py3-none-any.whl",
+            "sha256": "58d5c3d29f5a36ffeb94f02f0d786cd53014cf9b3b3951d42e0080d8a9498d30"
         },
         {
             "type": "file",
@@ -62,13 +62,18 @@
         },
         {
             "type": "file",
+            "url": "https://files.pythonhosted.org/packages/b2/2e/7931caacdd2f32eaf8b60c3    06c448b3a6d3d9248ef1dbb6286e51e5b8dea/librelingo_types-3.3.0-py3-none-any.whl",
+            "sha256": "12a41062d5c0b3728637b577dd687a07c186b1ae281dd476e7381b6950c04de8"
+        },
+        {
+            "type": "file",
             "url": "https://files.pythonhosted.org/packages/35/05/008b478174d23bee21eb0eda2e09f6d5d7591aafeade3bb7fd86202106ce/librelingo_types-3.2.0-py3-none-any.whl",
             "sha256": "bc15aa2e055ce407b883ad99b34ab6d8bcf48a13764f82685cc0f2ae9318f785"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/79/76/614e552ffc242c0e3ca9031147c6cf284706dfaeddbfd91b6a63e97bbdb7/pyfakefs-4.5.3-py3-none-any.whl",
-            "sha256": "501d784c6ad57ce7ab727249166d58043d199ebbb67b404ecab67bcb1a9bb696"
+            "url": "https://files.pythonhosted.org/packages/f4/29/97ad0e27c549eb9cf5dabe6142fc354272d9ed5fa080ac64ca701ad62d60/pyfakefs-5.0.0-py3-none-any.whl",
+            "sha256": "e1b01954978fe2d9a4d75f079359d7f8d3af3bb12ff2dc8633a4cc0a0dc7fbda"
         },
         {
             "type": "file",
@@ -82,20 +87,15 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz",
-            "sha256": "1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"
+            "url": "https://files.pythonhosted.org/packages/74/03/8238272af77e4bb9323d60cf76ae26b8dd7d8e9d6522e584df70d69555e5/termcolor-2.1.0-py3-none-any.whl",
+            "sha256": "91dd04fdf661b89d7169cefd35f609b19ca931eb033687eaa647cef1ff177c49"
         },
         {
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
             "sha256": "8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
         },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz",
-            "sha256": "1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"
-        },
-        {
+       {
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/c9/d9/9527f609c28b508043edf587d03f96b8621ae4adaa4480197347cb640d0e/snapshottest-0.6.0-py2.py3-none-any.whl",
             "sha256": "9b177cffe0870c589df8ddbee0a770149c5474b251955bdbde58b7f32a4ec429"
