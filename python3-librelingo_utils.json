@@ -2,23 +2,23 @@
     "name": "python3-librelingo_utils",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"librelingo_utils>=2.5.0\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"librelingo_utils>=2.6.1\" --no-build-isolation"
     ],
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/97/cd/93ad08b2f97ec95da0bd860380ce0ac7481eaccc760356ee11eda369c048/regex-2021.11.10.tar.gz",
-            "sha256": "f341ee2df0999bfdf7a95e448075effe0db212a59387de1a70690e4acb03d4c6"
+            "url": "https://files.pythonhosted.org/packages/b2/2e/7931caacdd2f32eaf8b60c306c448b3a6d3d9248ef1dbb6286e51e5b8dea/librelingo_types-3.3.0-py3-none-any.whl",
+            "sha256": "12a41062d5c0b3728637b577dd687a07c186b1ae281dd476e7381b6950c04de8"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/35/05/008b478174d23bee21eb0eda2e09f6d5d7591aafeade3bb7fd86202106ce/librelingo_types-3.2.0-py3-none-any.whl",
-            "sha256": "bc15aa2e055ce407b883ad99b34ab6d8bcf48a13764f82685cc0f2ae9318f785"
+            "url": "https://files.pythonhosted.org/packages/78/2b/45f74e0c9a4bd8094a92391ae16b295519bb326cf0e63ad227d8037b03b3/librelingo_utils-2.6.2-py3-none-any.whl",
+            "sha256": "2635b81a0963fecae7baead52cff5a3779c2b3dded5c665c5e4270215773faa8"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/c6/02/ed15e3d1aeb93919ad585f1b99bc3232846c46eaca14b930f8f4d7a05088/librelingo_utils-2.6.1-py3-none-any.whl",
-            "sha256": "d28ed25aab9ea57e0e657834b373ab21d42c0c94c67b084cafecb4d664e68d35"
+            "url": "https://files.pythonhosted.org/packages/27/b5/92d404279fd5f4f0a17235211bb0f5ae7a0d9afb7f439086ec247441ed28/regex-2022.10.31.tar.gz",
+            "sha256": "a3a98921da9a1bf8457aeee6a551948a83601689e5ecdd736894ea9bbec77e83"
         }
     ]
 }
