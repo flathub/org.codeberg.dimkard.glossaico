@@ -17,18 +17,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/06/76/ec8c79a9fe4ec6fb0e48ad33ed29b51733d0ba03e2acb7b94f8e0e23028e/bleach-whitelist-0.0.11.tar.gz",
-            "sha256": "2f7cc5ac2283f14f0cd52251dad51382813db776f3bcb8a61c6123d57b8e2ab4"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a0/34/895006117f6fce0b4de045c87e154ee4a20c68ec0a4c9a36d900888fb6bc/pyparsing-3.0.6-py3-none-any.whl",
-            "sha256": "04ff808a5b90911829c55c4e26f75fa5ca8a2f5f36aa3a51f68e27033341d3e4"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/05/8e/8de486cbd03baba4deef4142bd643a3e7bbe954a784dc1bb17142572d127/packaging-21.3-py3-none-any.whl",
-            "sha256": "ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"
+            "url": "https://files.pythonhosted.org/packages/e8/6b/927c955e350468e4c1a2a7fc73ef2d6197f66ab88f21fc259f3b543db3ed/bleach_allowlist-1.0.3-py2.py3-none-any.whl",
+            "sha256": "6427a3ac0baddf549703f1003ea53f411f3d7888524c94c00eb6ef1deb378899"
         },
         {
             "type": "file",
@@ -37,8 +27,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/d4/87/508104336a2bc0c4cfdbdceedc0f44dc72da3abc0460c57e323ddd1b3257/bleach-5.0.1-py3-none-any.whl",
-            "sha256": "085f7f33c15bd408dd9b17a4ad77c577db66d76203e5984b1bd59baeee948b2a"
+            "url": "https://files.pythonhosted.org/packages/ac/e2/dfcab68c9b2e7800c8f06b85c76e5f978d05b195a958daa9b1dda54a1db6/bleach-6.0.0-py3-none-any.whl",
+            "sha256": "33c16e3353dbd13028ab4799a0f89a83f113405c766e9c122df8a06f5b85b3f4"
         },
         {
             "type": "file",
@@ -47,13 +37,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/16/e3/4ad79882b92617e3a4a0df1960d6bce08edfb637737ac5c3f3ba29022e25/soupsieve-2.3.2.post1-py3-none-any.whl",
-            "sha256": "3b2503d3c7084a42b1ebd08116e5f81aadfaea95863628c80a3b774a11b7c759"
+            "url": "https://files.pythonhosted.org/packages/d2/70/2c92d7bc961ba43b7b21032b7622144de5f97dec14b62226533f6940798e/soupsieve-2.4-py3-none-any.whl",
+            "sha256": "49e5368c2cda80ee7e84da9dbe3e110b70a4575f196efb74e51b94549d921955"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/9c/d8/909c4089dbe4ade9f9705f143c9f13f065049a9d5e7d34c828aefdd0a97c/beautifulsoup4-4.11.1-py3-none-any.whl",
-            "sha256": "58d5c3d29f5a36ffeb94f02f0d786cd53014cf9b3b3951d42e0080d8a9498d30"
+            "url": "https://files.pythonhosted.org/packages/c6/ee/16d6f808f5668317d7c23f942091fbc694bcded6aa39678e5167f61b2ba0/beautifulsoup4-4.11.2-py3-none-any.whl",
+            "sha256": "0e79446b10b3ecb499c1556f7e228a53e64a2bfcebd455f370d8927cb5b59e39"
         },
         {
             "type": "file",
@@ -67,13 +57,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/35/05/008b478174d23bee21eb0eda2e09f6d5d7591aafeade3bb7fd86202106ce/librelingo_types-3.2.0-py3-none-any.whl",
-            "sha256": "bc15aa2e055ce407b883ad99b34ab6d8bcf48a13764f82685cc0f2ae9318f785"
-        },
-        {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/f4/29/97ad0e27c549eb9cf5dabe6142fc354272d9ed5fa080ac64ca701ad62d60/pyfakefs-5.0.0-py3-none-any.whl",
-            "sha256": "e1b01954978fe2d9a4d75f079359d7f8d3af3bb12ff2dc8633a4cc0a0dc7fbda"
+            "url": "https://files.pythonhosted.org/packages/a4/db/1b738a4d422eee1bb9688c2ea01d9b4bcc02e4e98ad71e13f5db3ff3cd5a/pyfakefs-5.1.0-py3-none-any.whl",
+            "sha256": "e6f34a8224b41f1b1ab25aa8d430121dac42e3c6e981e01eae76b3343fba47d0"
         },
         {
             "type": "file",
@@ -87,23 +72,18 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/74/03/8238272af77e4bb9323d60cf76ae26b8dd7d8e9d6522e584df70d69555e5/termcolor-2.1.0-py3-none-any.whl",
-            "sha256": "91dd04fdf661b89d7169cefd35f609b19ca931eb033687eaa647cef1ff177c49"
+            "url": "https://files.pythonhosted.org/packages/aa/f4/8ddd8a684b4c005345f45740a449d93d0af7ccecd91319d0f4426cf08b36/termcolor-2.2.0-py3-none-any.whl",
+            "sha256": "91ddd848e7251200eac969846cbae2dacd7d71c2871e92733289e7e3666f48e7"
         },
         {
-            "type": "file",
-            "url": "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
-            "sha256": "8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
-        },
-       {
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/c9/d9/9527f609c28b508043edf587d03f96b8621ae4adaa4480197347cb640d0e/snapshottest-0.6.0-py2.py3-none-any.whl",
             "sha256": "9b177cffe0870c589df8ddbee0a770149c5474b251955bdbde58b7f32a4ec429"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a5/5a/d01602e56f5ddad70f35c3a7f13e9082b9dfcc0e70f6fade638b48536468/librelingo_yaml_loader-1.10.4-py3-none-any.whl",
-            "sha256": "75c3295c3c352ab47e556a0c06501d837e66ca8548dd17a3bc78a201501c144e"
+            "url": "https://files.pythonhosted.org/packages/9d/0b/d92ed93f6d1b16c6eb4e7de486df97748a88d04a02c5102917c27c706072/librelingo_yaml_loader-1.10.5-py3-none-any.whl",
+            "sha256": "a8a1ee15c20ad840460713a121f81115ac213d8b387e713e50ec07404af8530a"
         }
     ]
 }

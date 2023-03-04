@@ -2,7 +2,7 @@
     "name": "python3-librelingo_utils",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"librelingo_utils>=2.6.1\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"librelingo_utils>=2.6.2\" --no-build-isolation"
     ],
     "sources": [
         {
