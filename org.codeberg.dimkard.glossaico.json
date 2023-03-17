@@ -102,6 +102,7 @@
         "python3-librelingo_yaml_loader.json",
         "python3-librelingo_audios.json",
         "python3-SQLAlchemy.json",
+        "python3-Babel.json",
         {
             "name": "glossaico",
             "buildsystem" : "simple",
@@ -112,8 +113,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://codeberg.org/dimkard/glossaico/archive/v1.1.tar.gz",
-                    "sha256": "b4874202102f3f4be3200b894ef23d68e6328fce035b160f16243e35c711d72b"
+                    "url": "https://codeberg.org/dimkard/glossaico/archive/v1.2.tar.gz",
+                    "sha256": "e42325b619ec6e5d27f7b6782e10cb98aaa3bfd2a8c0678da9cfc8ade6ad7bc4"
                  }
             ]
         }
