@@ -1,0 +1,13 @@
+diff --git a/glossaico/translator.py b/glossaico/translator.py
+index 3aadd6b..78a51fc 100644
+--- a/glossaico/translator.py
++++ b/glossaico/translator.py
+@@ -12,7 +12,7 @@ ngettext = gettext.ngettext
+ src_dir = Path(__file__).resolve().parent
+ 
+ try:
+-    translation = gettext.translation(f"{APP_COMPONENT_NAME}")
++    translation = gettext.translation(APP_COMPONENT_NAME, "/app/share/locale")
+     if translation:
+         translation.install()
+         _ = translation.gettext
