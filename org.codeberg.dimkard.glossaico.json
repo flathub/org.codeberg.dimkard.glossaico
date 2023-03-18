@@ -115,7 +115,11 @@
                     "type": "archive",
                     "url": "https://codeberg.org/dimkard/glossaico/archive/v1.2.tar.gz",
                     "sha256": "e42325b619ec6e5d27f7b6782e10cb98aaa3bfd2a8c0678da9cfc8ade6ad7bc4"
-                 }
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-flatpak-translations.patch"
+                }
             ]
         }
     ]
