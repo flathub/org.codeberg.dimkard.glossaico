@@ -6,7 +6,6 @@
     "sdk-extensions": ["org.freedesktop.Sdk.Extension.llvm14"],
     "add-extensions": {
         "org.freedesktop.Sdk.Extension.llvm14": {
-            "no-autodownload": "false",
             "version": "22.08"
         }
     },
