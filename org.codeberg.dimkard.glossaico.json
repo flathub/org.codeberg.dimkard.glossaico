@@ -118,6 +118,10 @@
                 {
                     "type": "patch",
                     "path": "fix-flatpak-translations.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix_appdata.patch"
                 }
             ]
         }
