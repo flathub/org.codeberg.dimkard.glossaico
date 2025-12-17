@@ -1,0 +1,35 @@
+From dedfa73c732103e35b7f96ad72551f62e4c0b6fd Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <161761531+yakushabb@users.noreply.github.com>
+Date: Wed, 17 Dec 2025 16:11:43 +0300
+Subject: [PATCH] Fix appdata papercuts
+
+---
+ org.codeberg.dimkard.glossaico.metainfo.xml | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/org.codeberg.dimkard.glossaico.metainfo.xml b/org.codeberg.dimkard.glossaico.metainfo.xml
+index 9b5dd57..7e43b69 100644
+--- a/org.codeberg.dimkard.glossaico.metainfo.xml
++++ b/org.codeberg.dimkard.glossaico.metainfo.xml
+@@ -3,7 +3,7 @@
+  SPDX-FileCopyrightText: 2022 Dimitris Kardarakos <dimkard@posteo.net>
+  SPDX-License-Identifier: CC0-1.0
+ -->
+-<component type="desktop">
++<component type="desktop-application">
+   <id>org.codeberg.dimkard.glossaico</id>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-3.0+</project_license>
+@@ -20,6 +20,9 @@
+   </screenshots>
+   <url type="homepage">https://codeberg.org/dimkard/glossaico</url>
+   <url type="bugtracker">https://codeberg.org/dimkard/glossaico/issues</url>
++  <url type="vcs-browser">https://codeberg.org/dimkard/glossaico</url>
++  <developer_name>dimkard</developer_name>
++  <launchable type="desktop-id">org.codeberg.dimkard.glossaico.desktop</launchable>
+   <releases>
+     <release version="1.2" date="2023-03-17">
+       <description>
+--
+libgit2 1.7.2
+
